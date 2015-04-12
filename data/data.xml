@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<weewx timestamp="889923"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="weewx.xsd">
+	
+	<version>3.1.0</version>
+	<uptime>0 days, 2 hours, 32 minutes</uptime>
+	<weewxtime>40 days, 1 hour, 26 minutes</weewxtime>
+	
+	<extras>
+	</extras>
+	
+  <station>
+		<hardware>VantageVue</hardware>
+		<location>Stapleton, Bristol</location>
+		<latitude degs="51">27.00' N</latitude>
+		<longitude degs="002">35.00' W</longitude>
+		<altitude>42 meters</altitude>
+	</station>
+	
+  <current>
+    <dateTime>04/10/2015 10:14:00</dateTime>
+    <outTemp>14.3&#176;C</outTemp>
+    <windchill>14.3&#176;C</windchill>
+    <heatindex>14.3&#176;C</heatindex>
+    <dewpoint>8.2&#176;C</dewpoint>
+		<barometer trend="-1.6 mbar">1016.2 mbar</barometer>
+		<wind winddir="225&#176;" compass="SW">5 km/h</wind>
+		<rainRate>0.0 mm/hr</rainRate> 
+		<inTemp>24.3&#176;C</inTemp>
+	</current>
+	
+	<day>
+			<outTempmax time="10:13:51">14.3&#176;C</outTempmax>
+			<outTempmin time="04:46:10">5.1&#176;C</outTempmin>
+
+			<heatindex time="10:13:51">14.3&#176;C</heatindex>
+
+			<windchill time="04:46:10">5.1&#176;C</windchill>
+
+			<maxhumidity time="04:54:24">91%</maxhumidity>
+			<minhumidity time="10:02:47">67%</minhumidity>
+
+			<maxdewpoint time="10:01:11">8.3&#176;C</maxdewpoint>
+			<mindewpoint time="03:45:10">3.4&#176;C</mindewpoint>
+
+			<maxbarometer time="00:00:57">1021.9 mbar</maxbarometer>
+			<minbarometer time="10:05:03">1016.2 mbar</minbarometer>
+
+			<rainsum>0.0 mm</rainsum>
+			<rainrate time="00:00:01">0.0 mm/hr</rainrate>
+			
+			<windmax time="09:07:50" direction="96&#176;">16 km/h</windmax>
+			<windaverage>1 km/h</windaverage>
+			<windrms>2 km/h</windrms>
+			<windvector direction="132&#176;">4 km/h</windvector>
+
+			<inTempmax time="10:09:03">24.3&#176;C</inTempmax>
+			<inTempmin time="04:40:02">22.2&#176;C</inTempmin>			
+
+	</day>
+	
+	<week>
+			<outTempmax time="17:09:51 (Thursday)">19.4&#176;C</outTempmax>
+			<outTempmin time="04:31:58 (Monday)">2.8&#176;C</outTempmin>
+
+			<heatindex time="17:09:51 (Thursday)">19.4&#176;C</heatindex>
+
+			<windchill time="04:31:58 (Monday)">2.8&#176;C</windchill>
+
+			<maxhumidity time="07:23:30 (Tuesday)">96%</maxhumidity>
+			<minhumidity time="14:37:41 (Thursday)">43%</minhumidity>
+
+			<maxdewpoint time="12:01:37 (Monday)">10.9&#176;C</maxdewpoint>
+			<mindewpoint time="04:26:50 (Monday)">1.8&#176;C</mindewpoint>
+
+			<maxbarometer time="09:16:00 (Tuesday)">1037.9 mbar</maxbarometer>
+			<minbarometer time="10:05:03 (Friday)">1016.2 mbar</minbarometer>
+
+			<rainsum>0.0 mm</rainsum>
+			<rainrate time="00:00:03 (Sunday)">0.0 mm/hr</rainrate>
+			
+			
+			<windmax time="13:26:03 (Monday)" direction="76&#176;">26 km/h</windmax>
+			<windaverage>1 km/h</windaverage>
+			<windrms>3 km/h</windrms>
+			<windvector direction="84&#176;">2 km/h</windvector>
+
+			<inTempmax time="14:27:57 (Thursday)">26.9&#176;C</inTempmax>
+			<inTempmin time="04:42:58 (Monday)">17.9&#176;C</inTempmin>			
+
+	</week>	
+	
+	<month>
+			<outTempmax time="04/09/2015 17:09:51">19.4&#176;C</outTempmax>
+			<outTempmin time="04/06/2015 04:31:58">2.8&#176;C</outTempmin>
+
+			<heatindex time="04/09/2015 17:09:51">19.4&#176;C</heatindex>
+
+			<windchill time="04/01/2015 04:07:33">0.4&#176;C</windchill>
+
+			<maxhumidity time="04/02/2015 23:46:50">97%</maxhumidity>
+			<minhumidity time="04/09/2015 14:37:41">43%</minhumidity>
+
+			<maxdewpoint time="04/03/2015 15:18:52">11.3&#176;C</maxdewpoint>
+			<mindewpoint time="04/01/2015 00:20:43">-0.2&#176;C</mindewpoint>
+
+			<maxbarometer time="04/07/2015 09:16:00">1037.9 mbar</maxbarometer>
+			<minbarometer time="04/03/2015 10:23:03">1013.4 mbar</minbarometer>
+
+			<rainsum>7.2 mm</rainsum>
+			<rainrate time="04/02/2015 05:38:21">11.6 mm/hr</rainrate>
+			
+			
+			<windmax time="04/01/2015 21:40:01" direction="281&#176;">39 km/h</windmax>
+			<windaverage>3 km/h</windaverage>
+			<windrms>5 km/h</windrms>
+			<windvector direction="279&#176;">2 km/h</windvector>
+
+			<inTempmax time="04/09/2015 14:27:57">26.9&#176;C</inTempmax>
+			<inTempmin time="04/06/2015 04:42:58">17.9&#176;C</inTempmin>			
+
+	</month>
+	
+	<year>
+			<outTempmax time="04/09/2015 17:09:51">19.4&#176;C</outTempmax>
+			<outTempmin time="01/23/2015 05:53:00">-3.6&#176;C</outTempmin>
+
+			<heatindex time="04/09/2015 17:09:51">19.4&#176;C</heatindex>
+
+			<windchill time="01/23/2015 05:53:00">-3.6&#176;C</windchill>
+
+			<maxhumidity time="01/01/2015 23:36:00">97%</maxhumidity>
+			<minhumidity time="04/09/2015 14:37:41">43%</minhumidity>
+
+			<maxdewpoint time="01/02/2015 00:07:00">12.1&#176;C</maxdewpoint>
+			<mindewpoint time="02/02/2015 00:38:00">-4.7&#176;C</mindewpoint>
+
+			<maxbarometer time="02/08/2015 10:04:00">1041.8 mbar</maxbarometer>
+			<minbarometer time="01/30/2015 04:14:00">974.8 mbar</minbarometer>
+
+			<rainsum>139.2 mm</rainsum>
+			<rainrate time="01/12/2015 16:29:00">18.8 mm/hr</rainrate>
+			
+			
+			<windmax time="03/24/2015 15:42:00" direction="338&#176;">314 km/h</windmax>
+			<windaverage>5 km/h</windaverage>
+			<windrms>8 km/h</windrms>
+			<windvector direction="245&#176;">4 km/h</windvector>
+
+			<inTempmax time="03/10/2015 15:10:00">27.9&#176;C</inTempmax>
+			<inTempmin time="02/06/2015 05:41:00">16.7&#176;C</inTempmin>			
+
+	</year>	
+	
+    <almanac>
+			<sun>
+				<twilightRise>04:49:16</twilightRise>
+				<twilightSet>19:35:24</twilightSet>
+				<sunrise>05:26:10</sunrise>
+				<transit>12:11:42</transit>
+				<sunset>18:58:20</sunset>
+				<azimuth>140.429345034</azimuth>
+				<altitude>18.6794002593</altitude>
+				<declination>7.90181548388</declination>
+				<rightascension>18.6794002593</rightascension>
+				<equinox>09/23/2015 08:20:26</equinox>
+				<solstice>06/21/2015 16:38:03</solstice>
+			</sun>
+			<moon>
+				<twilightRise>00:19:05</twilightRise>
+				<twilightSet>09:51:30</twilightSet>
+				<moonrise>00:07:27</moonrise>
+				<transit>04:39:10</transit>
+				<moonset>09:10:36</moonset>
+				<azimuth>251.43306033</azimuth>
+				<altitude>267.908189881</altitude>
+				<declination>-18.975260693</declination>
+				<rightascension>267.908189881</rightascension>
+				<fullmoon>05/04/2015 03:42:04</fullmoon>
+				<newmoon>04/18/2015 18:56:50</newmoon>
+				<phase fullness="69">Last quarter</phase>
+			</moon>
+    </almanac> 
+
+</weewx>
+ 

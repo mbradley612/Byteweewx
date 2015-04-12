@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<weewx timestamp="1428740720.39"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="weewxforecast.xsd">
+
+
+
+
+
+
+
+	<forecast status="true">
+
+
+	<legend>
+		<disclosure></disclosure>
+		<date></date>
+		<outlook></outlook>
+		<temp icon="thermometer-red.png" alt='T' title='temperature'>&#176;C</temp>
+		<dewpoint icon="thermometer-dewpoint.png" alt='D' title='dewpoint'>&#176;C</dewpoint>
+		<humidity icon="thermometer-blue.png" alt='H' title='humidity'>%</humidity>
+		<wind icon="flag.png" alt='W' title='wind'> km/h</wind>
+		<tides icon="water.png" alt='tide' title='tides'> meters</tides>
+		<sun icon='sunriseset.png' alt='S' title='sun'></sun>
+		<moon icon="moonriseset.png" alt='M' title='moon'></moon>
+		<moonphase icon="moonphase.png" alt='MP' title='moon phase'></moonphase>
+		<pop icon="pop.png" alt='PoP' title='probability of precipitation'> mm</pop>
+		<precip></precip>
+		<obvis></obvis>
+	</legend>
+
+
+
+
+
+
+
+
+
+
+			<summary id='WU.2015.04.11'>
+
+				<day>Sat</day>
+				<date>11 Apr 2015</date>
+
+					<outlook icon='FW.png' alt='FW'>Few Clouds</outlook>
+
+				<temphi>12</temphi>
+				<templo>6</templo>
+				<dewpointMax>4</dewpointMax>
+				<dewpointMin>0</dewpointMin>
+				<humidityMax>75</humidityMax>
+				<humidityMin>44</humidityMin>
+				
+				<windDir>
+						<event alt="SW">SW</event>
+						<event alt="SSW">SW</event>
+						<event alt="WSW">SW</event>
+						<event alt="WNW">NW</event>
+						<event alt="W">W</event>
+				</windDir>
+				<windSpd>
+								10-27
+				</windSpd>
+				<windGust> </windGust>
+				<windChar></windChar>
+
+
+
+				<sun>
+						<rise>05:24:00</rise>
+						<set>18:59:58</set>
+				</sun>
+
+				<moon>
+						<rise>00:59:46</rise>
+						<set>10:08:17</set>
+					<phase>59%</phase>
+				</moon>
+
+				<pop>
+						<chance>7%</chance>
+				</pop>
+
+				<precip>
+				</precip>
+				<obvis>
+				</obvis>
+
+			</summary>
+			
+		
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>09:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>8</temp>
+			<dewpoint>4</dewpoint>
+			<humidity>73</humidity>
+			<wind>WNW</wind>
+			<windSpd>19</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>10:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>9</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>61</humidity>
+			<wind>WNW</wind>
+			<windSpd>21</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+						<set>10:08:17</set>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>11:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>11</temp>
+			<dewpoint>1</dewpoint>
+			<humidity>51</humidity>
+			<wind>W</wind>
+			<windSpd>23</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>12:00</hour>
+			
+				<outlook icon='B1.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>12</temp>
+			<dewpoint>0</dewpoint>
+			<humidity>45</humidity>
+			<wind>W</wind>
+			<windSpd>24</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>13:00</hour>
+			
+				<outlook icon='B1.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>12</temp>
+			<dewpoint>0</dewpoint>
+			<humidity>45</humidity>
+			<wind>W</wind>
+			<windSpd>27</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>7%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>14:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>12</temp>
+			<dewpoint>0</dewpoint>
+			<humidity>44</humidity>
+			<wind>WSW</wind>
+			<windSpd>27</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>15:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>12</temp>
+			<dewpoint>1</dewpoint>
+			<humidity>45</humidity>
+			<wind>WSW</wind>
+			<windSpd>27</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>16:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>11</temp>
+			<dewpoint>1</dewpoint>
+			<humidity>48</humidity>
+			<wind>WSW</wind>
+			<windSpd>26</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>17:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>11</temp>
+			<dewpoint>1</dewpoint>
+			<humidity>52</humidity>
+			<wind>W</wind>
+			<windSpd>24</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>18:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>9</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>58</humidity>
+			<wind>W</wind>
+			<windSpd>21</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+					<set>18:59:58</set>
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>19:00</hour>
+			
+				<outlook icon='FWn.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>9</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>62</humidity>
+			<wind>W</wind>
+			<windSpd>18</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>20:00</hour>
+			
+				<outlook icon='FWn.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>8</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>65</humidity>
+			<wind>WSW</wind>
+			<windSpd>14</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>21:00</hour>
+			
+				<outlook icon='FWn.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>7</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>68</humidity>
+			<wind>WSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>22:00</hour>
+			
+				<outlook icon='FWn.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>7</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>71</humidity>
+			<wind>SW</wind>
+			<windSpd>10</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.11.hours' class='period'>
+
+			<day>Sat</day>
+			<date>11 Apr 2015</date>	
+			<hour>23:00</hour>
+			
+				<outlook icon='FWn.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>6</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>73</humidity>
+			<wind>SW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+
+			<summary id='WU.2015.04.12'>
+
+				<day>Sun</day>
+				<date>12 Apr 2015</date>
+
+					<outlook icon='SC.png' alt='SC'>Scattered</outlook>
+
+				<temphi>16</temphi>
+				<templo>4</templo>
+				<dewpointMax>8</dewpointMax>
+				<dewpointMin>1</dewpointMin>
+				<humidityMax>95</humidityMax>
+				<humidityMin>52</humidityMin>
+				
+				<windDir>
+						<event alt="SSW">SW</event>
+						<event alt="SW">SW</event>
+						<event alt="W">W</event>
+						<event alt="WSW">SW</event>
+						<event alt="WNW">NW</event>
+				</windDir>
+				<windSpd>
+								6-27
+				</windSpd>
+				<windGust> </windGust>
+				<windChar></windChar>
+
+
+
+				<sun>
+						<rise>05:21:49</rise>
+						<set>19:01:38</set>
+				</sun>
+
+				<moon>
+						<rise>01:46:12</rise>
+						<set>11:13:27</set>
+					<phase>52%</phase>
+				</moon>
+
+				<pop>
+						<chance>12%</chance>
+				</pop>
+
+				<precip>
+				</precip>
+				<obvis>
+				</obvis>
+
+			</summary>
+			
+		
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>00:00</hour>
+			
+				<outlook icon='FWn.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>6</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>75</humidity>
+			<wind>SSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>01:00</hour>
+			
+				<outlook icon='FWn.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>5</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>77</humidity>
+			<wind>SSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+						<rise>01:46:12</rise>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>02:00</hour>
+			
+				<outlook icon='SCn.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>5</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>77</humidity>
+			<wind>SSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>03:00</hour>
+			
+				<outlook icon='SCn.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>5</temp>
+			<dewpoint>1</dewpoint>
+			<humidity>77</humidity>
+			<wind>SSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>04:00</hour>
+			
+				<outlook icon='SCn.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>4</temp>
+			<dewpoint>1</dewpoint>
+			<humidity>79</humidity>
+			<wind>SSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>05:00</hour>
+			
+				<outlook icon='SCn.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>4</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>82</humidity>
+			<wind>SSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+					<rise>05:21:49</rise>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>06:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>5</temp>
+			<dewpoint>2</dewpoint>
+			<humidity>81</humidity>
+			<wind>SSW</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>07:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>7</temp>
+			<dewpoint>3</dewpoint>
+			<humidity>78</humidity>
+			<wind>SSW</wind>
+			<windSpd>13</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>08:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>9</temp>
+			<dewpoint>4</dewpoint>
+			<humidity>73</humidity>
+			<wind>SSW</wind>
+			<windSpd>18</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>09:00</hour>
+			
+				<outlook icon='FW.png' alt='FW' title='Few Clouds'></outlook>
+
+			<temp>11</temp>
+			<dewpoint>5</dewpoint>
+			<humidity>67</humidity>
+			<wind>SSW</wind>
+			<windSpd>21</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>10:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>13</temp>
+			<dewpoint>6</dewpoint>
+			<humidity>59</humidity>
+			<wind>SSW</wind>
+			<windSpd>24</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>11:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>14</temp>
+			<dewpoint>5</dewpoint>
+			<humidity>54</humidity>
+			<wind>SSW</wind>
+			<windSpd>24</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+						<set>11:13:27</set>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>12:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>15</temp>
+			<dewpoint>6</dewpoint>
+			<humidity>53</humidity>
+			<wind>SSW</wind>
+			<windSpd>26</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>13:00</hour>
+			
+				<outlook icon='B1.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>16</temp>
+			<dewpoint>6</dewpoint>
+			<humidity>52</humidity>
+			<wind>SW</wind>
+			<windSpd>26</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>14:00</hour>
+			
+				<outlook icon='B2.png' alt='B2' title='Considerable Cloudiness'></outlook>
+
+			<temp>16</temp>
+			<dewpoint>6</dewpoint>
+			<humidity>52</humidity>
+			<wind>SW</wind>
+			<windSpd>27</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>15:00</hour>
+			
+				<outlook icon='OV.png' alt='OV' title='Overcast'></outlook>
+
+			<temp>16</temp>
+			<dewpoint>6</dewpoint>
+			<humidity>53</humidity>
+			<wind>SW</wind>
+			<windSpd>26</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>16:00</hour>
+			
+				<outlook icon='B2.png' alt='B2' title='Considerable Cloudiness'></outlook>
+
+			<temp>15</temp>
+			<dewpoint>6</dewpoint>
+			<humidity>55</humidity>
+			<wind>SW</wind>
+			<windSpd>26</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>1%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>17:00</hour>
+			
+				<outlook icon='B1.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>14</temp>
+			<dewpoint>6</dewpoint>
+			<humidity>59</humidity>
+			<wind>WSW</wind>
+			<windSpd>24</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>2%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>18:00</hour>
+			
+				<outlook icon='SC.png' alt='SC' title='Scattered'></outlook>
+
+			<temp>13</temp>
+			<dewpoint>7</dewpoint>
+			<humidity>65</humidity>
+			<wind>WSW</wind>
+			<windSpd>21</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>3%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>19:00</hour>
+			
+				<outlook icon='B1.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>12</temp>
+			<dewpoint>7</dewpoint>
+			<humidity>73</humidity>
+			<wind>WSW</wind>
+			<windSpd>18</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+					<set>19:01:38</set>
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>5%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>20:00</hour>
+			
+				<outlook icon='B1n.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>11</temp>
+			<dewpoint>7</dewpoint>
+			<humidity>81</humidity>
+			<wind>WSW</wind>
+			<windSpd>14</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>6%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>21:00</hour>
+			
+				<outlook icon='B1n.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>9</temp>
+			<dewpoint>7</dewpoint>
+			<humidity>85</humidity>
+			<wind>WSW</wind>
+			<windSpd>13</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>5%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>22:00</hour>
+			
+				<outlook icon='B1n.png' alt='B1' title='Mostly Cloudy'></outlook>
+
+			<temp>9</temp>
+			<dewpoint>7</dewpoint>
+			<humidity>88</humidity>
+			<wind>W</wind>
+			<windSpd>11</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>12%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+		<period id='WU.2015.04.12.hours' class='period'>
+
+			<day>Sun</day>
+			<date>12 Apr 2015</date>	
+			<hour>23:00</hour>
+			
+				<outlook icon='B2n.png' alt='B2' title='Considerable Cloudiness'></outlook>
+
+			<temp>9</temp>
+			<dewpoint>8</dewpoint>
+			<humidity>92</humidity>
+			<wind>W</wind>
+			<windSpd>8</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>12%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+
+
+
+
+
+			<summary id='WU.2015.04.13'>
+
+				<day>Mon</day>
+				<date>13 Apr 2015</date>
+
+					<outlook icon='B2.png' alt='B2'>Considerable Cloudiness</outlook>
+
+				<temphi>8</temphi>
+				<templo>8</templo>
+				<dewpointMax>8</dewpointMax>
+				<dewpointMin>8</dewpointMin>
+				<humidityMax>95</humidityMax>
+				<humidityMin>95</humidityMin>
+				
+				<windDir>
+						<event alt="WNW">NW</event>
+				</windDir>
+				<windSpd>
+								6
+				</windSpd>
+				<windGust> </windGust>
+				<windChar></windChar>
+
+
+
+				<sun>
+						<rise>05:19:38</rise>
+						<set>19:03:18</set>
+				</sun>
+
+				<moon>
+						<rise>02:26:57</rise>
+						<set>12:24:42</set>
+					<phase>41%</phase>
+				</moon>
+
+				<pop>
+						<chance>12%</chance>
+				</pop>
+
+				<precip>
+				</precip>
+				<obvis>
+				</obvis>
+
+			</summary>
+			
+		
+		<period id='WU.2015.04.13.hours' class='period'>
+
+			<day>Mon</day>
+			<date>13 Apr 2015</date>	
+			<hour>00:00</hour>
+			
+				<outlook icon='B2n.png' alt='B2' title='Considerable Cloudiness'></outlook>
+
+			<temp>8</temp>
+			<dewpoint>8</dewpoint>
+			<humidity>95</humidity>
+			<wind>WNW</wind>
+			<windSpd>6</windSpd>
+			<windGust> </windGust>
+			<windChar></windChar>
+
+
+			<sun>
+
+			</sun>
+
+				<moon>
+				</moon>
+
+			<pop>
+					<chance>12%</chance>
+			</pop>
+
+			<precip>
+			</precip>
+
+
+		</period>
+
+	
+	<sources>
+		<forecast source="WU" location="51.4500,-2.5833">11-Apr-2015 05:52</forecast>
+	</sources>
+
+</forecast>
+
+
+</weewx>

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+   <channel>
+      <title>Stapleton, Bristol, Weather Conditions</title>
+      <link>http://weather.davies-barnard.uk</link>
+      <description>Current conditions, and daily, monthly, and yearly summaries</description>
+      <language>en-us</language>
+      <pubDate>Fri, 10 Apr 2015 10:14:00 UTC</pubDate>
+
+      <lastBuildDate>Fri, 10 Apr 2015 10:14:00 UTC</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>weewx 3.1.0</generator>
+      <ttl>1.000000 minute</ttl>
+      
+      <item>
+         <title>Weather Conditions at 04/10/2015 10:14:00</title>
+         <link>http://weather.davies-barnard.uk</link>
+         <description>
+           Outside temperature: 14.3&#176;C; 
+           Barometer: 1016.2 mbar; 
+           Wind: 5 km/h from 225&#176;; 
+           Rain rate: 0.0 mm/hr; 
+           Inside temperature: 24.3&#176;C
+         </description>
+         <pubDate>Fri, 10 Apr 2015 10:14:00 UTC</pubDate>
+	     <geo:lat>51.45</geo:lat>
+    	 <geo:long>-2.5833</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Time:                04/10/2015 10:14:00<br/>
+             Outside Temperature: 14.3&#176;C<br/>
+             Inside Temperature:  24.3&#176;C<br/>
+             Wind Chill:          14.3&#176;C<br/>
+             Heat Index:          14.3&#176;C<br/>
+             Dewpoint:            8.2&#176;C<br/>
+             Humidity:            67%<br/>
+             Barometer:           1016.2 mbar<br/>
+             Wind:                5 km/h from 225&#176;<br/>
+             Rain Rate:           0.0 mm/hr<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Daily Weather Summary as of 04/10/2015 10:14:00</title>
+         <link>http://weather.davies-barnard.uk</link>
+         <description>
+	        Min outside temperature: 5.1&#176;C at 04:46:10;
+         	Max outside temperature: 14.3&#176;C at 10:13:51;
+	        Min inside temperature:  22.2&#176;C at 04:40:02;
+	        Max inside temperature:  24.3&#176;C at 10:09:03;
+	        Min barometer:           1016.2 mbar at 10:05:03;
+	        Max barometer:           1021.9 mbar at 00:00:57;
+            Max wind :               16 km/h from 96&#176; at 09:07:50;
+            Rain today:              0.0 mm
+         </description>
+         <pubDate>Fri, 10 Apr 2015 10:14:00 UTC</pubDate>
+	     <geo:lat>51.45</geo:lat>
+    	 <geo:long>-2.5833</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Day:                     10 Apr 2015<br/>
+	         Min Outside Temperature: 5.1&#176;C at 04:46:10<br/>
+	         Max Outside Temperature: 14.3&#176;C at 10:13:51<br/>
+	         Min Inside Temperature:  22.2&#176;C at 04:40:02<br/>
+	         Max Inside Temperature:  24.3&#176;C at 10:09:03<br/>
+	         Min Barometer:           1016.2 mbar at 10:05:03<br/>
+	         Max Barometer:           1021.9 mbar at 00:00:57<br/>
+             Max Wind :               16 km/h from 96&#176; at 09:07:50<br/>
+             Rain today:              0.0 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Monthly Weather Summary as of 04/10/2015 10:14:00</title>
+         <link>http://weather.davies-barnard.uk/month.html</link>
+         <description>
+	        Min outside temperature: 2.8&#176;C at 04/06/2015 04:31:58;
+         	Max outside temperature: 19.4&#176;C at 04/09/2015 17:09:51;
+	        Min inside temperature:  17.9&#176;C at 04/06/2015 04:42:58;
+	        Max inside temperature:  26.9&#176;C at 04/09/2015 14:27:57;
+	        Min barometer:           1013.4 mbar at 04/03/2015 10:23:03;
+	        Max barometer:           1037.9 mbar at 04/07/2015 09:16:00;
+            Max wind :               39 km/h from 281&#176; at 04/01/2015 21:40:01;
+            Rain total for month:    7.2 mm
+         </description>
+         <pubDate>Fri, 10 Apr 2015 10:14:00 UTC</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Month:                   April 2015<br/>
+	         Max Outside Temperature: 19.4&#176;C at 04/09/2015 17:09:51<br/>
+	         Min Outside Temperature: 2.8&#176;C at 04/06/2015 04:31:58<br/>
+	         Max Inside Temperature:  26.9&#176;C at 04/09/2015 14:27:57<br/>
+	         Min Inside Temperature:  17.9&#176;C at 04/06/2015 04:42:58<br/>
+	         Min Barometer:           1013.4 mbar at 04/03/2015 10:23:03<br/>
+	         Max Barometer:           1037.9 mbar at 04/07/2015 09:16:00<br/>
+             Max Wind :               39 km/h from 281&#176; at 04/01/2015 21:40:01<br/>
+             Rain total for month:    7.2 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Yearly Weather Summary as of 04/10/2015 10:14:00</title>
+         <link>http://weather.davies-barnard.uk/year.html</link>
+         <description>
+	        Min outside temperature: -3.6&#176;C at 01/23/2015 05:53:00;
+         	Max outside temperature: 19.4&#176;C at 04/09/2015 17:09:51;
+	        Min inside temperature:  16.7&#176;C at 02/06/2015 05:41:00;
+	        Max inside temperature:  27.9&#176;C at 03/10/2015 15:10:00;
+	        Min barometer:           974.8 mbar at 01/30/2015 04:14:00;
+	        Max barometer:           1041.8 mbar at 02/08/2015 10:04:00;
+            Max wind :               314 km/h from 338&#176; at 03/24/2015 15:42:00;
+            Rain total for year:     139.2 mm
+         </description>
+         <pubDate>Fri, 10 Apr 2015 10:14:00 UTC</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Year:                    2015<br/>
+	         Max Outside Temperature: 19.4&#176;C at 04/09/2015 17:09:51<br/>
+	         Min Outside Temperature: -3.6&#176;C at 01/23/2015 05:53:00<br/>
+	         Max Inside Temperature:  27.9&#176;C at 03/10/2015 15:10:00<br/>
+	         Min Inside Temperature:  16.7&#176;C at 02/06/2015 05:41:00<br/>
+	         Min Barometer:           974.8 mbar at 01/30/2015 04:14:00<br/>
+	         Max Barometer:           1041.8 mbar at 02/08/2015 10:04:00<br/>
+             Max Wind :               314 km/h from 338&#176; at 03/24/2015 15:42:00<br/>
+             Rain total for year:     139.2 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+   </channel>
+</rss>
+

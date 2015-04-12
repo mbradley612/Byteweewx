@@ -1,0 +1,15 @@
+#content table.weewx-table tbody tr td img.icon {
+	border:0;
+	box-shadow: none;
+}
+
+#content table.weewx-table tbody tr td {
+	vertical-align:top; 
+	text-align:center; 
+}
+
+.col-wind {
+	background-repeat: no-repeat; 
+	background-position:bottom; 
+	height: 50px;
+}
