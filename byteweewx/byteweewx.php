@@ -266,6 +266,14 @@ if(!class_exists("byteweewx")) {
 				"</table>";
 		} //byteweewx_display
 		
+
+		/**
+		* Display method for wind as a single text line.
+		*/
+		function byteweewx_display_wind() {
+			// $this->output .= "A big gale";
+			$this->output .= $this->xml->current->wind." @ ".$this->xml->current->wind['compass']." (".$this->xml->current->wind['winddir'].")";
+		} //byteweewx_display_wind
 		
 		/**
 		* Display method for archive files
@@ -434,6 +442,9 @@ if(!class_exists("byteweewx")) {
 							break;
 						case "forecast":
 							$this->byteweewx_display_forecast($id);
+							break;
+						case "wind":
+							$this->byteweewx_display_wind();
 							break;
 						case "single":
 							$this->byteweewx_display_element($id);
