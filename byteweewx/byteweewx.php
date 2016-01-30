@@ -167,6 +167,7 @@ if(!class_exists("byteweewx")) {
 				"<tr><td>Outside Temp</td><td>".$this->xml->current->outTemp."</td></tr>".
 				"<tr><td>Barometer</td><td>".$this->xml->current->barometer." Trending:".$this->xml->current->barometer['trend']."</td></tr>".
 				"<tr><td>Wind</td><td>".$this->xml->current->wind." @ ".$this->xml->current->wind['compass']." (".$this->xml->current->wind['winddir'].")"."</td></tr>".
+        "<tr><td>Wind Gust</td><td>".$this->xml->current->wind['windgust']."</td></tr>".			
 				"<tr><td>Wind Chill</td><td>".$this->xml->current->windchill."</td></tr>".
 				"<tr><td>Rain Rate</td><td>".$this->xml->current->rainRate."</td></tr>".				
 				"<tr><td>Dew Point</td><td>".$this->xml->current->dewpoint."</td></tr>".
@@ -266,6 +267,38 @@ if(!class_exists("byteweewx")) {
 				"</table>";
 		} //byteweewx_display
 		
+
+		/**
+		* Display method for wind as a single text line.
+		*/
+		function byteweewx_display_wind_summary() {
+			// $this->output .= "A big gale";
+			$this->output .= $this->xml->current->wind." @ ".$this->xml->current->wind['compass']." (".$this->xml->current->wind['winddir'].")";
+		} //byteweewx_display_wind
+   
+   	/**
+		* Display method for wind as a single text line.
+		*/
+		function byteweewx_display_wind_speed() {
+			// $this->output .= "A big gale";
+			$this->output .= $this->xml->current->wind ;
+		} //byteweewx_display_wind_speed
+   
+   function byteweewx_display_wind_gust() {
+			// $this->output .= "A big gale";
+			$this->output .= $this->xml->current->wind['windgust'] ;
+		} //byteweewx_display_wind_gust
+   
+   function byteweewx_display_wind_direction() {
+			// $this->output .= "A big gale";
+			$this->output .= $this->xml->current->wind['winddir'] ;
+		} //byteweewx_display_wind_direction
+   
+   function byteweewx_display_wind_compass() {
+			// $this->output .= "A big gale";
+			$this->output .= $this->xml->current->wind['compass'] ;
+		} //byteweewx_display_wind_compass
+   
 		
 		/**
 		* Display method for archive files
@@ -435,6 +468,19 @@ if(!class_exists("byteweewx")) {
 						case "forecast":
 							$this->byteweewx_display_forecast($id);
 							break;
+						case "wind_speed":
+							$this->byteweewx_display_wind_speed();
+							break;
+            case "wind_gust":
+							$this->byteweewx_display_wind_gust();
+							break;
+            case "wind_direction":
+							$this->byteweewx_display_wind_direction();
+							break;
+            case "wind_compass":
+							$this->byteweewx_display_wind_compass();
+							break;
+            
 						case "single":
 							$this->byteweewx_display_element($id);
 							break;						
