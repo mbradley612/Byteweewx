@@ -6,6 +6,7 @@
  * Version: 0.0.1
  * Author: Chris Davies-Barnard
  * Author URI: http://weather.davies-barnard.uk/about
+ * with changes from Matthew Bradley
  * License: GPL2
  */
 
@@ -269,38 +270,6 @@ if(!class_exists("byteweewx")) {
 		
 
 		/**
-		* Display method for wind as a single text line.
-		*/
-		function byteweewx_display_wind_summary() {
-			// $this->output .= "A big gale";
-			$this->output .= $this->xml->current->wind." @ ".$this->xml->current->wind['compass']." (".$this->xml->current->wind['winddir'].")";
-		} //byteweewx_display_wind
-   
-   	/**
-		* Display method for wind as a single text line.
-		*/
-		function byteweewx_display_wind_speed() {
-			// $this->output .= "A big gale";
-			$this->output .= $this->xml->current->wind ;
-		} //byteweewx_display_wind_speed
-   
-   function byteweewx_display_wind_gust() {
-			// $this->output .= "A big gale";
-			$this->output .= $this->xml->current->wind['windgust'] ;
-		} //byteweewx_display_wind_gust
-   
-   function byteweewx_display_wind_direction() {
-			// $this->output .= "A big gale";
-			$this->output .= $this->xml->current->wind['winddir'] ;
-		} //byteweewx_display_wind_direction
-   
-   function byteweewx_display_wind_compass() {
-			// $this->output .= "A big gale";
-			$this->output .= $this->xml->current->wind['compass'] ;
-		} //byteweewx_display_wind_compass
-   
-		
-		/**
 		* Display method for archive files
 		* that produces a list of the available txt files.
 		*/
@@ -468,19 +437,6 @@ if(!class_exists("byteweewx")) {
 						case "forecast":
 							$this->byteweewx_display_forecast($id);
 							break;
-						case "wind_speed":
-							$this->byteweewx_display_wind_speed();
-							break;
-            case "wind_gust":
-							$this->byteweewx_display_wind_gust();
-							break;
-            case "wind_direction":
-							$this->byteweewx_display_wind_direction();
-							break;
-            case "wind_compass":
-							$this->byteweewx_display_wind_compass();
-							break;
-            
 						case "single":
 							$this->byteweewx_display_element($id);
 							break;						
