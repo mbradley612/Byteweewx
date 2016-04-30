@@ -228,6 +228,13 @@ if(!class_exists("byteweewx")) {
 			}
 		} //END byteweewx_display_element
 		
+		/**
+		* Get a single element from our Ajax document
+		*/
+		#function byteweewx_display_live_element($id=null}{
+		#			
+		#} // END byteweewx_display_live_element
+		
 		
 		/**
 		* Display one of the images that has been uploaded
@@ -439,7 +446,10 @@ if(!class_exists("byteweewx")) {
 							break;
 						case "single":
 							$this->byteweewx_display_element($id);
-							break;						
+							break;
+						case "live_single":
+						   $this->byteweewx_display_live_element($id);
+						   break;						
 						default:
 							$this->output .= "Unknown Short Code Argument ($element)";
 							break;	
@@ -479,6 +489,9 @@ if(isset($byteweewx)) {
 	//Add any code to the <head> element and queue scripts
 	add_action('wp_head',array(&$byteweewx,'byteweewx_addHeaderCode'),1);
 	add_action( 'wp_enqueue_scripts', array(&$byteweewx,'byteweewx_scripts'),1);
+	// add action for ajax
+	add_action( 'wp_ajax_update_live_weewx', 'update_live_weewx' );
+   add_action( 'wp_ajax_nopriv_update_live_weewx', 'update_live_weewx}' );
 	
 	//add_action('admin_menu', array(&$wewgpi,'wewgpi_admin_actions'));  
 	
