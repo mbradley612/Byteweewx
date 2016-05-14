@@ -1,0 +1,1 @@
+{"outTemp": {"unit_label": "", "value": "8\u00b0C"}, "timestamp": "2016-04-30T22:35:45.302863", "windDir": {"unit_label": "", "value": "NNE"}, "pressure": {"unit_label": "mbar", "value": "1026"}, "windSpeed": {"unit_label": "knots", "value": "2"}, "windGust": {"unit_label": "knots", "value": "3"}}

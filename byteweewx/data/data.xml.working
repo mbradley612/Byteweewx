@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<weewx timestamp="889923"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="weewx.xsd">
+	
+	<version>3.0.0</version>
+	<uptime>0 days, 0 hours, 26 minutes</uptime>
+	<weewxtime>0 days, 0 hours, 26 minutes</weewxtime>
+	
+	<extras>
+	</extras>
+	
+  <station>
+		<hardware>Simulator</hardware>
+		<location>HHSC Simulator, Hampshire</location>
+		<latitude degs="50">49.35' N</latitude>
+		<longitude degs="001">14.47' W</longitude>
+		<altitude>0 meters</altitude>
+	</station>
+	
+  <current>
+    <dateTime>03/30/16 20:25:00</dateTime>
+    <outTemp>0</outTemp>
+    <windchill>-4.3&#176;C</windchill>
+    <heatindex>-0.1&#176;C</heatindex>
+    <dewpoint>-3.2&#176;C</dewpoint>
+		<barometer trend="   N/A">1053.0 mbar</barometer>
+    <windspeed>7</windspeed>
+    <windgust>7</windgust>
+    <windCompass>N</windCompass>
+    <windUnit> knots</windUnit>
+    <pressure>1052</pressure>
+    <pressureUnit> mbar</pressureUnit>
+    <tempUnit>&#176;C</tempUnit>
+		<wind winddir="360&#176;" compass="N" windgust="8 knots">7 knots</wind>
+		<rainRate>0.0 mm/hr</rainRate> 
+		<inTemp>17.2&#176;C</inTemp>
+			<uv>0.0</uv>
+			<radiation>0 W/m&#178;</radiation>
+	</current>
+	
+	<day>
+			<outTempmax time="19:58:38">0.4&#176;C</outTempmax>
+			<outTempmin time="00:09:59">-1.0&#176;C</outTempmin>
+
+			<heatindex time="19:58:38">0.4&#176;C</heatindex>
+
+			<windchill time="00:09:59">-8.4&#176;C</windchill>
+
+			<maxhumidity time="19:58:38">80%</maxhumidity>
+			<minhumidity time="00:09:59">79%</minhumidity>
+
+			<maxdewpoint time="19:58:38">-2.7&#176;C</maxdewpoint>
+			<mindewpoint time="00:09:59">-4.1&#176;C</mindewpoint>
+
+			<maxbarometer time="19:58:38">1053.0 mbar</maxbarometer>
+			<minbarometer time="00:09:59">1052.5 mbar</minbarometer>
+
+			<rainsum>0.5 mm</rainsum>
+			<rainrate time="00:00:04">304.8 mm/hr</rainrate>
+			
+			<windmax time="19:58:38" direction="360&#176;">43 knots</windmax>
+			<windaverage>8 knots</windaverage>
+			<windrms>10 knots</windrms>
+			<windvector direction="358&#176;">8 knots</windvector>
+
+			<inTempmax time="00:09:59">17.4&#176;C</inTempmax>
+			<inTempmin time="19:58:38">17.2&#176;C</inTempmin>			
+
+	</day>
+	
+	<week>
+			<outTempmax time="22:43:54 (Tuesday)">0.4&#176;C</outTempmax>
+			<outTempmin time="00:09:59 (Wednesday)">-1.0&#176;C</outTempmin>
+
+			<heatindex time="22:43:54 (Tuesday)">0.4&#176;C</heatindex>
+
+			<windchill time="00:09:59 (Wednesday)">-8.4&#176;C</windchill>
+
+			<maxhumidity time="22:43:54 (Tuesday)">80%</maxhumidity>
+			<minhumidity time="00:09:59 (Wednesday)">79%</minhumidity>
+
+			<maxdewpoint time="22:43:54 (Tuesday)">-2.7&#176;C</maxdewpoint>
+			<mindewpoint time="00:09:59 (Wednesday)">-4.1&#176;C</mindewpoint>
+
+			<maxbarometer time="22:43:54 (Tuesday)">1053.0 mbar</maxbarometer>
+			<minbarometer time="00:09:59 (Wednesday)">1052.5 mbar</minbarometer>
+
+			<rainsum>0.5 mm</rainsum>
+			<rainrate time="00:00:04 (Wednesday)">304.8 mm/hr</rainrate>
+			
+			
+			<windmax time="22:43:54 (Tuesday)" direction="360&#176;">43 knots</windmax>
+			<windaverage>9 knots</windaverage>
+			<windrms>11 knots</windrms>
+			<windvector direction="359&#176;">9 knots</windvector>
+
+			<inTempmax time="00:09:59 (Wednesday)">17.4&#176;C</inTempmax>
+			<inTempmin time="22:43:54 (Tuesday)">17.2&#176;C</inTempmin>			
+
+	</week>	
+	
+	<month>
+			<outTempmax time="03/04/16 21:08:31">0.4&#176;C</outTempmax>
+			<outTempmin time="03/30/16 00:09:59">-1.0&#176;C</outTempmin>
+
+			<heatindex time="03/04/16 21:08:31">0.4&#176;C</heatindex>
+
+			<windchill time="03/30/16 00:09:59">-8.4&#176;C</windchill>
+
+			<maxhumidity time="03/04/16 21:08:31">80%</maxhumidity>
+			<minhumidity time="03/30/16 00:09:59">79%</minhumidity>
+
+			<maxdewpoint time="03/04/16 21:08:31">-2.7&#176;C</maxdewpoint>
+			<mindewpoint time="03/30/16 00:09:59">-4.1&#176;C</mindewpoint>
+
+			<maxbarometer time="03/04/16 21:08:31">1053.0 mbar</maxbarometer>
+			<minbarometer time="03/30/16 00:09:59">1052.5 mbar</minbarometer>
+
+			<rainsum>0.5 mm</rainsum>
+			<rainrate time="03/30/16 00:00:04">304.8 mm/hr</rainrate>
+			
+			
+			<windmax time="03/04/16 21:08:31" direction="360&#176;">43 knots</windmax>
+			<windaverage>8 knots</windaverage>
+			<windrms>10 knots</windrms>
+			<windvector direction="359&#176;">8 knots</windvector>
+
+			<inTempmax time="03/30/16 00:09:59">17.4&#176;C</inTempmax>
+			<inTempmin time="03/04/16 21:08:31">17.2&#176;C</inTempmin>			
+
+	</month>
+	
+	<year>
+			<outTempmax time="01/30/16 14:31:43">0.4&#176;C</outTempmax>
+			<outTempmin time="01/30/16 19:17:25">-1.1&#176;C</outTempmin>
+
+			<heatindex time="01/30/16 14:31:43">0.4&#176;C</heatindex>
+
+			<windchill time="01/30/16 19:17:25">-8.9&#176;C</windchill>
+
+			<maxhumidity time="01/30/16 14:31:43">80%</maxhumidity>
+			<minhumidity time="01/30/16 20:55:00">77%</minhumidity>
+
+			<maxdewpoint time="01/30/16 14:31:43">-2.7&#176;C</maxdewpoint>
+			<mindewpoint time="01/30/16 19:33:05">-4.3&#176;C</mindewpoint>
+
+			<maxbarometer time="01/30/16 14:31:43">1053.0 mbar</maxbarometer>
+			<minbarometer time="01/30/16 20:55:00">1049.3 mbar</minbarometer>
+
+			<rainsum>0.5 mm</rainsum>
+			<rainrate time="03/30/16 00:00:04">304.8 mm/hr</rainrate>
+			
+			
+			<windmax time="01/30/16 17:17:27" direction="360&#176;">43 knots</windmax>
+			<windaverage>9 knots</windaverage>
+			<windrms>12 knots</windrms>
+			<windvector direction="356&#176;">9 knots</windvector>
+
+			<inTempmax time="01/30/16 20:55:00">18.4&#176;C</inTempmax>
+			<inTempmin time="01/30/16 14:31:43">17.2&#176;C</inTempmin>			
+
+	</year>	
+	
+		<almanac>
+			<sun>
+				<sunrise>06:43</sunrise>
+				<sunset>06:43</sunset>
+			</sun>
+			<moon>
+				<phase fullness="59">Last quarter</phase>
+			</moon>
+		</almanac>
+
+</weewx>
+ 
+

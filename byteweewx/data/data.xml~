@@ -8,6 +8,11 @@ xsi:noNamespaceSchemaLocation="weewx.xsd">
 	<uptime>0 days, 0 hours, 1 minute</uptime>
 	<weewxtime>4 days, 20 hours, 9 minutes</weewxtime>
 	
+	<extras>
+		<radarurl>'http://radar.weather.gov/ridge/radar.php?product=NCR&rid=RTX&loop=yes'</radarurl>
+		<radarimg>'http://radar.weather.gov/ridge/lite/N0R/RTX_loop.gif'</radarimg>
+	</extras>
+	
   <station>
 		<hardware>VantagePro2</hardware>
 		<location>Hill Head Sailing Club, Fareham, UK</location>

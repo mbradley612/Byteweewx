@@ -229,11 +229,16 @@ if(!class_exists("byteweewx")) {
 		} //END byteweewx_display_element
 		
 		/**
-		* Get a single element from our Ajax document
+		* Display a single element from our Ajax document
+		* One of windSpeed, windGust, windDir, outTemp, pressure, timestamp
 		*/
-		#function byteweewx_display_live_element($id=null}{
-		#			
-		#} // END byteweewx_display_live_element
+		function byteweewx_display_live_element($id=null){
+			if (!is_null($id) || !empty($id)) {
+				wp_enqueue_script("update-weather");
+				$this->output .="<div id='".$id."'></div>";
+				
+			}
+		} // END byteweewx_display_live_element
 		
 		
 		/**
@@ -315,6 +320,10 @@ if(!class_exists("byteweewx")) {
 				}
 			}				
 		}
+		
+		/**
+		* Display live weather
+		*/
 		
 		function byteweewx_display_period_forecast($period,$legend) {
 			$ip = $this->url."/byteweewx/media/icons/";
@@ -449,7 +458,8 @@ if(!class_exists("byteweewx")) {
 							break;
 						case "live_single":
 						   $this->byteweewx_display_live_element($id);
-						   break;						
+						   break;		
+									
 						default:
 							$this->output .= "Unknown Short Code Argument ($element)";
 							break;	
@@ -468,6 +478,12 @@ if(!class_exists("byteweewx")) {
 	} //END of Class
 		
 } //END of If Exists
+
+
+function register_ajax_update_weather_enqueue_scripts() {
+	wp_register_script( 'update-weather', plugins_url( '/update-weather.js', __FILE__ ), array('jquery'), '1.0', true );
+}
+
 
 
 
@@ -493,6 +509,7 @@ if(isset($byteweewx)) {
 	add_action( 'wp_ajax_update_live_weewx', 'update_live_weewx' );
    add_action( 'wp_ajax_nopriv_update_live_weewx', 'update_live_weewx}' );
 	
+	add_action( 'wp_enqueue_scripts', 'register_ajax_update_weather_enqueue_scripts' );
 	//add_action('admin_menu', array(&$wewgpi,'wewgpi_admin_actions'));  
 	
 	// Add shortcode support.
