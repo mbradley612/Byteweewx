@@ -483,7 +483,7 @@ if(!class_exists("byteweewx")) {
 
 function register_ajax_update_weather_enqueue_scripts() {
 	wp_register_script( 'update-weather', plugins_url( '/update-weather.js', __FILE__ ), array('jquery'), '1.0', true );
-	wp_register_script( 'moment', plugins_url( '/moment-with-locales.min.js', __FILE__ ) );
+	wp_register_script( 'moment', plugins_url( '/js/moment-with-locales.min.js', __FILE__ ) );
 }
 
 

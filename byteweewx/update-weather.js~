@@ -24,7 +24,7 @@ function updateWeather() {
 		 jQuery("#outTemp").text(json.outTemp.value);
 		 jQuery("#timestamp").text(json.timestamp);
 		 observationMoment = moment(json.timestamp)
-		 jQuery("#timestamp").text(moment.min(observationMoment,moment()).fromNow());
+		 jQuery("#timestamp").text(observationMoment.fromNow());
 		 	 
 		 jQuery("#pressure").text(json.pressure.value);
 		 
