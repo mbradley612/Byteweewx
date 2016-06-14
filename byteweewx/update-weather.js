@@ -17,16 +17,28 @@ setInterval(function(){
 function updateWeather() {
 	jQuery.getJSON("/current_weather.php", { } )
 	  .done(function( json ) {
-	    console.log( "JSON Data: " + json.windSpeed.value );
+	    
 	    jQuery("#windSpeed").text(json.windSpeed.value);
+  	    jQuery("#mobWindSpeed").text(json.windSpeed.value);
+	    
 	    jQuery("#windGust").text(json.windGust.value);
+	    jQuery("#mobWindGust").text(json.windGust.value);
+	    
 		 jQuery("#windDir").text(json.windDir.value);
+		 jQuery("#mobWindDir").text(json.windDir.value);
+
+		 
 		 jQuery("#outTemp").text(json.outTemp.value);
-		 jQuery("#timestamp").text(json.timestamp);
+		 jQuery("#mobOutTemp").text(json.outTemp.value);
+
+		 	 
 		 observationMoment = moment(json.timestamp)
 		 jQuery("#timestamp").text(moment.min(observationMoment,moment()).fromNow());
+		 jQuery("#mobTimestamp").text(moment.min(observationMoment,moment()).fromNow());
+
 		 	 
 		 jQuery("#pressure").text(json.pressure.value);
+		 jQuery("#mobPressure").text(json.pressure.value);
 		 
 	    
 	    

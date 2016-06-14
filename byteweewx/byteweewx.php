@@ -231,6 +231,10 @@ if(!class_exists("byteweewx")) {
 		/**
 		* Display a single element from our Ajax document
 		* One of windSpeed, windGust, windDir, outTemp, pressure, timestamp
+		* and mobWindSpeed, mobWindGust, mobWindDir, mobOutTemp, mobPressure, mobTimestamp
+		*
+		* the mobX version is a hack to allow us to avoid us having two HTML elements with the same
+		* div ID. There is no functional difference between them. The Javascript updates both.
 		*/
 		function byteweewx_display_live_element($id=null){
 			if (!is_null($id) || !empty($id)) {
