@@ -251,7 +251,7 @@ if(!class_exists("byteweewx")) {
 		*/
 		function byteweewx_display_image($id=null){
 			if (!is_null($id) || !empty($id)) {
-				$this->output .= "<img src='".$this->url."/byteweewx/data/".$id.".png' />";
+				$this->output .= "<img src='".$this->url."/byteweewx/data/images/".$id.".png' />";
 			}
 		} //END byteweewx_display_image
 		
