@@ -240,7 +240,7 @@ if(!class_exists("byteweewx")) {
 			if (!is_null($id) || !empty($id)) {
 				wp_enqueue_script("update-weather");
 				wp_enqueue_script("moment");
-				$this->output .="<div id='".$id."'></div>";
+				$this->output .="<span id='".$id."'></span>";
 				
 			}
 		} // END byteweewx_display_live_element
